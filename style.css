@@ -1,43 +1,50 @@
-#main{
+#main {
     background-color: rgb(37, 37, 155);
     height: 100vh;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-#main .todolist
-{
-  align-items: center;
-width: 70%;
-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-input{
+#main .todolist {
+    align-items: center;
+    width: 70%;
+    color: white;
+}
+
+input {
     padding: 10px 20px;
     /* border-radius: 30%; */
-    width:60%;
+    width: 60%;
 }
-button{
+
+button {
     border-radius: 30%;
     color: brown;
-outline: none;
-padding: 10px 20px;
+    outline: none;
+    padding: 10px 20px;
 
 }
-ul{
-    margin-left:-30px;
+
+ul {
+    margin-left: -30px;
 
 }
-ul li{
+
+ul li {
 
     list-style: none;
     padding: 10px 20px 4px 15px;
     font-size: 1.5em;
-    border: 2px solid ;
+    border: 2px solid;
     user-select: none;
     cursor: pointer;
-    width:70%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-ul li span{
+
+ul li span {
     right: 0;
 }
